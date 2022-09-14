@@ -6,7 +6,7 @@ read_liberty -corner bc /mnt/volume_nyc1_01/skywater-pdk/libraries/sky130_fd_sc_
 read_verilog counter_gl.v
 link_design counter
 
-create_clock -name clk -period 3 {clk}
+create_clock -name clk -period 5 {clk}
 set_input_delay -clock clk 1 {reset}
 set_output_delay -clock clk 1 {q}
 
