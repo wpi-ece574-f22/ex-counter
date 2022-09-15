@@ -1,6 +1,6 @@
 module gcdtb();
    reg 	      clk, reset;
-   wire [1:0] q;
+   wire [31:0] q;
 
    counter dut(.clk(clk), .reset(reset), .q(q));
    
